@@ -15,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        // Uygulama calismaya basladigi zaman ilk aktif olan fonksiyon.
+        
+        
+        // Uygulama ilk calismaya basladigi zaman ilk aktif olan fonksiyon.
         print("Uygulama Calismaya Basladi.")
         return true
     }

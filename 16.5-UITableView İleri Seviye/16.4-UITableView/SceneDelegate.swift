@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  KontrolElemanları
+//  16.4-UITableView
 //
-//  Created by Alican TARIM on 6.06.2023.
+//  Created by Alican TARIM on 14.03.2024.
 //
 
 import UIKit

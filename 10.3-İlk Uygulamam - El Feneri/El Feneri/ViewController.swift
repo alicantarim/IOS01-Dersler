@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     //IB OUTLET ve DEĞİŞKENLER BURAYA YAZILIR.
-
+    // IB OUTLERLER BUTONA HER AN ULAŞMAMIZI SAĞLAR.
     // MARK: - UI Element
     @IBOutlet var lightButton: UIButton!
     
@@ -26,11 +26,11 @@ class ViewController: UIViewController {
     }
     
     //IB ACTION ve FONKSİYONLAR BURAYA YAZILIR.
-
+    //IB ACTIONLAR SADECE BUTONA TIKLANDIĞINDA ÇALIŞIR.
     // MARK: - Actions
     @IBAction func buttonTapped(_ button: UIButton) {
         lightOn.toggle()  // Butonu tıkladın, true ise false, false ise true yapar.
-        // lightOn = !=lightOn
+        // lightOn = !=lightOn aynı şey.
         
         updateUI()
         

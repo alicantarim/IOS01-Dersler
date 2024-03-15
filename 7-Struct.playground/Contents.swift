@@ -219,6 +219,7 @@ print(boiling.celcius)
 print(freezing.celcius)
 
 
+
 //----------------------------------------------------------
 // Instance Methods (Nesne Methodları)
 
@@ -236,6 +237,8 @@ let size1 = Size(width: 10.5, height: 3.2)
 
 //size1 nesnenin üzerinde area fonksiyonunu çalıştırır.
 let area1 = size1.area()
+
+
 
 
 // Kendi icerisindeki bir degiskene mudahale etmesini isteyen bir fonk yaziyorsak bunun mutating func olmasi gerekiyor.
@@ -262,6 +265,8 @@ sayac.artır(miktar: 15) // 'deger' özelliği 15 arttı.
 print(sayac.deger)
 sayac.reset()
 print(sayac.deger)
+
+
 
 
 
@@ -374,7 +379,7 @@ struct OndalikliSayi {
 //let piSayisi = OndalikliSayi(pi: 3.14)
 //piSayisi.pi
 
-OndalikliSayi.pi  // static var değeri direk okuyabiliriz.
+OndalikliSayi.pi  // static var değeri ile direk okuyabiliriz.
 
 // Fonksiyonlar da 'static' olabilir.
 let enKucukSayi = Double.minimum(12, 34.5)

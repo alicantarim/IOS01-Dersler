@@ -13,10 +13,10 @@ class RedViewController: UIViewController {
         super.viewDidLoad()
 
         // Programatik olarak tabBarItem'larin badge degerleri degistirilebilir.
-        //tabBarItem.badgeValue = "2"
-        tabBarItem.badgeColor = .systemBlue
+        tabBarItem.badgeValue = "2"
+        tabBarItem.badgeColor = .systemIndigo
         // Badge'in gorunmemesini istiyorsaniz degerini 'nil' olarak atamalisiniz.
-        tabBarItem.badgeValue = nil
+        //tabBarItem.badgeValue = nil
         
     }
     

@@ -94,14 +94,14 @@ let allNumbers = number1 + number2
 // Çok Boyutlu Diziler
 
 /*
- X O O -> Array1
+ X O X -> Array1
  O O X -> Array2
  X X 0 -> Array3
  */
 
 let array1 = ["X", "O", "X"]
-let array2 = ["X", "O", "X"]
-let array3 = ["X", "O", "X"]
+let array2 = ["O", "O", "X"]
+let array3 = ["X", "X", "O"]
 
 let gameBoard = [array1,array2, array3]
 
